@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'app/view/telaLogin.dart';
 import 'app/view/telaCadastro.dart';
+import 'app/view/homePage.dart';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
@@ -19,6 +20,6 @@ void main() async {
 
   runApp(const MaterialApp(
     debugShowCheckedModeBanner: false,
-    home: CadastroScreen(), 
+    home: LoginScreen(), 
   ));
 }
