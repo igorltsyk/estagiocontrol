@@ -169,9 +169,10 @@ class _CadastroScreenState extends State<CadastroScreen> {
                 child: ElevatedButton(
                   onPressed: cadastrar,
                   style: ElevatedButton.styleFrom(
-                    backgroundColor: Colors.lightBlue.shade100,
+                    backgroundColor: Colors.blueAccent,
                   ),
-                  child: const Text("Cadastrar"),
+                  child: const Text("Cadastrar",
+                  style: TextStyle(fontSize: 16, color: Colors.white, fontWeight: FontWeight.bold),),
                 ),
               ),
             ],
