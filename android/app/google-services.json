@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "259463650827",
+    "firebase_url": "https://estagio-control-default-rtdb.firebaseio.com",
+    "project_id": "estagio-control",
+    "storage_bucket": "estagio-control.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:259463650827:android:0f62542ee96ba699a2b10e",
+        "android_client_info": {
+          "package_name": "com.example.estagio_control"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBAjpu1OM_H2zqc3Wk96oIunITrnOvLWpA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
