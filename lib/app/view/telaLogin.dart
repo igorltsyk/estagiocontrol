@@ -109,9 +109,11 @@ class _LoginScreenState extends State<LoginScreen> {
                 child: ElevatedButton(
                   onPressed: entrar,
                   style: ElevatedButton.styleFrom(
-                    backgroundColor: Colors.lightBlue.shade100,
+                    backgroundColor: Colors.blueAccent,
                   ),
-                  child: const Text("Entrar"),
+                  child: const Text("Entrar",
+                  style: TextStyle(fontSize: 16, color: Colors.white, fontWeight: FontWeight.bold),
+                  ),
                 ),
               ),
               TextButton(
