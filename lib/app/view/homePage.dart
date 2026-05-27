@@ -34,7 +34,7 @@ class _HomeScreenState extends State<HomeScreen> {
     return Scaffold(
       backgroundColor: Colors.grey.shade50, 
       appBar: AppBar(
-        title: const Text("Estagio Controll"),
+        title: const Text("Estagio Control"),
         centerTitle: true,
         backgroundColor:  Colors.lightBlue.shade100,
         foregroundColor: Colors.black87,

@@ -28,7 +28,7 @@ class _PerfilScreenState extends State<PerfilScreen> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text("Estagio Controll"),
+        title: const Text("Estagio Control"),
         centerTitle: true,
         backgroundColor: Colors.lightBlue.shade100,
       ),
