@@ -152,7 +152,7 @@ class _HomeScreenState extends State<HomeScreen> {
 
 
                   const Text(
-                    "Últimos registos",
+                    "Últimos registros",
                     style: TextStyle(fontSize: 18, fontWeight: FontWeight.bold, color: Colors.black87),
                   ),
                   const SizedBox(height: 16),
