@@ -43,7 +43,7 @@ class _LoginScreenState extends State<LoginScreen> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text("Estagio Controll"),
+        title: const Text("Estagio Control"),
         centerTitle: true,
       ),
       body: Padding(

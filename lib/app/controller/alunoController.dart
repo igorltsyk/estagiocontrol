@@ -43,7 +43,18 @@ class AlunoController {
       await _auth.signInWithEmailAndPassword(email: email, password: senha);
       return null; 
     } on FirebaseAuthException catch (e) {
-      return e.message; 
+      switch (e.code) {
+        case 'invalid-credential':
+        case 'wrong-password':
+        case 'user-not-found':
+          return 'E-mail ou senha incorretos. Verifique seus dados.';
+        case 'invalid-email':
+          return 'O formato do e-mail é inválido.';
+        case 'user-disabled':
+          return 'O acesso deste usuário foi desativado.';
+        default:
+          return 'Erro ao fazer login. Tente novamente mais tarde.';
+      }
     }
   }
 
